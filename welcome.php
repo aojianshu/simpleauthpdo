@@ -24,7 +24,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] != true){
 <body class="h-screen w-full flex items-center justify-center bg-gray-200">
     <div class="text-center">
         <h1 class="text-2xl">Welcome <b><?= htmlspecialchars($_SESSION["username"]);?></b></h1>
-        <a href="logout.php" class="text-blue-600 font-semibold hover:text-blue-800 hover:underline">Logout</a>
+        <a href="logout.php" class="text-blue-600 font-semibold hover:text-blue-800 hover:underline">Logout mo diha</a>
     </div>
 </body>
 
